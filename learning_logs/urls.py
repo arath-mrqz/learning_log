@@ -9,7 +9,7 @@ urlpatterns = [
     # home page
     path('',views.index, name = 'index'),
     # the page that shows all the topics
-    path('topics/', views.topics, name= 'topic'),
+    path('topics/', views.topics, name= 'topics'),
     # page for each topic
     path('topics/<int:topic_id>/', views.topic, name='topic')
 ]
